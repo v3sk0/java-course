@@ -882,7 +882,7 @@ public void writeList() throws IOException, FileNotFoundException {
    * @throws IllegalArgumentException if fn is null, empty or blank,
    *                                  or a student with the specified fn is not found
    * @throws IOException if the student cannot be loaded due to some I/O problem  
-   * @return Student the loaded student
+   * @return Student the student
    */
   public Student loadStudent(String fn) throws IOException {
       // [...]
